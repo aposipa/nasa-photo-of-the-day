@@ -22,7 +22,7 @@ return(
          return(
             <PhotoCard
             title = {photo.title}
-            image = {photo.hdurl}
+            image = {photo.url}
             explanation = {photo.explanation}
             date = {photo.date}/>
          );
